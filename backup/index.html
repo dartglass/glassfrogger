@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GlassFrogger - Play Frogger through Google Glass!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+      body {
+        padding-top: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="row">
+        <div class="span12" style="color: #58d879;padding-bottom:30px;">
+          <img style="float:left;margin-left:-20px;" src="img/logo-glassfrogger.png" />
+          <h1 style="padding-bottom:30px;">GlassFrogger</h1>
+          <img style="float:left;margin-right:30px;" src="img/game-media/glassfrogger.jpg" />
+          <p>Play Frogger through Google Glass! Jump your way to lily pad bliss.</p>
+          <p style="margin-bottom:30px;"><a href="" onclick="javascript:authClick();" class="btn btn-primary btn-large">Send to Glass &raquo;</a></p>
+          <p><!-- Our team loves ALL operating systems... seriously! --><a href="http://www.glassfrogger.com/play"><img src="img/Glass-Android-WP-iOS.jpg" style="width:240px;margin-top:-10px;" /></a>Available on Glass, Android, Windows Phone, and iOS through the power of <img src="img/HTML5.png" style="width:24px;margin-top:-5px;" /></p>
+        </div>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Fun</h2>
+          <p>GlassFrogger is a fun and interactive simple game you can play on Google Glass... Jump Around!</p>
+        </div>
+        <div class="span4">
+          <h2>Retro</h2>
+          <p>GlassFrogger harkens back to the old days of gaming when sprites were cool    :)</p>
+        </div>
+        <div class="span4">
+          <h2>Fitness</h2>
+          <p>GlassFrogger gets you out of your chair, giving you a chance to stretch your legs. Go Ahead!</p>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+    <script src="js/frogmirror.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+  </body>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43287711-1', 'glassfrogger.com');
+  ga('send', 'pageview');
+
+</script>
+</html>
